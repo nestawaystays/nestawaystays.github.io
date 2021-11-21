@@ -181,6 +181,11 @@ header .ideal-image-slider {
     .container .star-light {
         margin: 15px auto;
     }
+
+    .navbar-brand {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
 }
 
 @media(min-width:768px) {
@@ -225,6 +230,12 @@ header .ideal-image-slider {
     }
     header .container {
         padding-top: 30vh;
+    }
+}
+
+@media(max-width: 460px) {
+    .airbnb-embed-frame {
+        width: 100% !important;
     }
 }
 
