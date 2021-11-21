@@ -1,0 +1,22 @@
+# example slider
+- selector: example_slider
+  bullets: true
+  captions: false
+  images:
+    - src: /img/slider/1.jpg
+      alt: image one
+    - src: /img/slider/2.jpg
+      alt: image two
+    - src: /img/slider/4.jpg
+      alt: image three
+  settings:
+    height: "'auto'"
+    initialHeight:
+    maxHeight:
+    interval: 5000
+    transitionDuration:
+    effect: "'fade'"
+    disableNav: false
+    keyboardNav: true
+    previousNavSelector:
+    nextNavSelector:

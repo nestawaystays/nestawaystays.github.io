@@ -1,0 +1,92 @@
+# Site settings
+title: Nest Away Stays
+email: nestawaystays@gmail.com
+# url: https://github.com/jeromelachaud/freelancer-theme
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "your keywords, separated by commas"
+skills: "Boutique Stays · Curated Guest Experiences"
+meta_author: Nest Away Stays LLC
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+# disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fff #80B3FF
+  primary-rgb: "0,0,0" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 9bdcb4 #A2122F
+  tertiary-dark: 4c1534
+  button-hover: 128f76
+  font-color: 2c3e50
+  font-hover: 40566c
+
+# Footer settings
+footer:
+  copyright: Nest Away Stays LLC
+  location: Locations
+  social: Around the Web
+  credits: Direct Bookings
+iis_slider_array: []
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: https://www.instagram.com/nestawaystays/
+  - title: airbnb
+    url: https://www.airbnb.com/p/nestawaystays/
+  - title: map
+    url: https://nestawaystays.directbyhost.com/
+  #- title: bitbucket
+  #  url: http://bitbucket.org/jekyll
+  #- title: github
+  #  url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Seattle, WA
+  - line: Louisville, KY
+
+# Credits content
+credits: 'Book directly with us for a discount! Click <a href=https://nestawaystays.directbyhost.com/>here</a> to get started!'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - docs/
+  - bower_components/ideal-image-slider/example/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
